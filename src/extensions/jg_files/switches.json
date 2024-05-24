@@ -1,0 +1,32 @@
+{
+    "askUserForFileOfType": [
+        "hide",
+        "askUserForFileOfTypeAsArrayBuffer",
+        "askUserForFileOfTypeAsDataUri"
+    ],
+    "askUserForFileOfTypeAsArrayBuffer": [
+        "askUserForFileOfType",
+        "hide",
+        "askUserForFileOfTypeAsDataUri"
+    ],
+    "askUserForFileOfTypeAsDataUri": [
+        "askUserForFileOfType",
+        "askUserForFileOfTypeAsArrayBuffer",
+        "hide"
+    ],
+    "downloadFile": [
+        "hide",
+        "downloadFileDataUri",
+        "downloadFileBuffer"
+    ],
+    "downloadFileDataUri": [
+        "downloadFile",
+        "hide",
+        "downloadFileBuffer"
+    ],
+    "downloadFileBuffer": [
+        "downloadFile",
+        "downloadFileDataUri",
+        "hide"
+    ]
+}
