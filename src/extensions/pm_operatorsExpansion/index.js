@@ -14,8 +14,6 @@ const blocks = `
 %b30> ` +/* binnary xor */`
 %b31> ` +/* binnary not */`
 ${blockSeparator}
-<block type="operator_randomBoolean" />
-${blockSeparator}
 <block type="operator_nand" />
 <block type="operator_nor" />
 <block type="operator_xor" />
