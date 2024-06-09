@@ -39,9 +39,7 @@ const StringUtil = require('../util/string-util');
 const uid = require('../util/uid');
 
 //encoding shit
-
-//fun fact: both of these packages are so old their npm says to use "var ... = require('...')"
-const base32 = require("base32");
+const base32 = require("base32-crockford-browser");
 const uuencode = require("uuencode");
 
 const coreVariableTypes = [
